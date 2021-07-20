@@ -4,7 +4,7 @@ interface Done {
   done: boolean;
 }
 
-export const EditGrid = styled.main`
+export const TodoGrid = styled.main`
   width: 100vw;
   height: 100vh;
   display: grid;

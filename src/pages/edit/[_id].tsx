@@ -18,7 +18,7 @@ import {
   UserContainer,
   Label,
   Email,
-} from './styles';
+} from '../../components/EditGrid/styles';
 
 interface SignInFormData {
   name: string;

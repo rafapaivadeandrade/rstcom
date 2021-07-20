@@ -7,7 +7,7 @@ import mongoose from 'mongoose';
 import toast, { Toaster } from 'react-hot-toast';
 
 import {
-  EditGrid,
+  TodoGrid,
   SettingsContainer,
   TodoContainer,
   UserContainer,
@@ -19,7 +19,7 @@ import {
   Form,
   Container,
   Wrapper,
-} from './styles';
+} from '../../components/TodoGrid/styles';
 
 export default function TodoList({ user }) {
   const { loadUser, userData, deleteTask, insertTask, logOut } = useUser();
@@ -69,7 +69,7 @@ export default function TodoList({ user }) {
   }
 
   return (
-    <EditGrid>
+    <TodoGrid>
       <Toaster />
       <SettingsContainer>
         <a>
@@ -133,7 +133,7 @@ export default function TodoList({ user }) {
           <button>Salvar</button>
         </Form>
       </TodoContainer>
-    </EditGrid>
+    </TodoGrid>
   );
 }
 export const getServerSideProps: GetServerSideProps = async (
