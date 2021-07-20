@@ -19,7 +19,7 @@
     "**/*.ts",
     "**/*.tsx",
     "utils/database.ts",
-    "src/pages/api/middleware/auth.js"
+    "next.config.js"
   ],
   "exclude": ["node_modules"]
 }
