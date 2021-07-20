@@ -8,8 +8,32 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/jsonwebtoken": "^8.5.4",
+    "@types/mongoose": "^5.11.97",
+    "@types/styled-components": "^5.1.11",
+    "@types/yup": "^0.29.13",
+    "@unform/core": "^2.1.6",
+    "@unform/web": "^2.1.6",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.0.0",
+    "mongoose": "^5.13.2",
     "next": "11.0.1",
+    "next-connect": "^0.10.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hot-toast": "^2.0.0",
+    "sass": "^1.35.2",
+    "styled-components": "^5.3.0",
+    "swr": "^0.5.6",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/mongodb": "^3.6.20",
+    "@types/node": "^16.3.1",
+    "@types/react": "^17.0.14",
+    "typescript": "^4.3.5"
   }
 }
